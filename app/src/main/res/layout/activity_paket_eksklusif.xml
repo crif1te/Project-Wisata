@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".PaketEksklusif">
+
+    <ViewFlipper
+        android:layout_width="418dp"
+        android:layout_height="256dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/villa1" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/villa2" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/villa3" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bukit" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/waduk" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sungai" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/airterjun" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/jeep1" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/jeep2" />
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text=" Wisata Paket Eksklusif"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Di Desa Tempellemahbang"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Paket Wisata Selama 4 Hari dengan villa pilihan dengan sarapan. Keseluruhan tour yang terseida, Jeep Tour Lengkap, Pasar Souvenir, Makan Siang dan Malam di Resto Sawah . Pilihan yang tersedia : Waduk, Sungai, Bukit, Air Terjun."
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:textSize="20dp"/>
+
+    </ScrollView>
+
+</LinearLayout>

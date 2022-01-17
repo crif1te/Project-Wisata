@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".CallCenter">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Customer Service"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Jika ada pertanyaan mengenai pemesanan, informasi paket, informasi tour, dll. Bisa menghubungi  WA 089668447508/Telp (021) 673 2836"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:textSize="20dp"/>
+
+    </ScrollView>
+
+</LinearLayout>
